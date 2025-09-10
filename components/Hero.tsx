@@ -1,15 +1,31 @@
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 interface HeroProps {
   setView: () => void;
 }
 
 const Hero: React.FC<HeroProps> = ({ setView }) => {
+  const [offsetY, setOffsetY] = useState(0);
+  const handleScroll = () => setOffsetY(window.pageYOffset);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <section id="home" className="h-screen w-full flex items-center justify-center relative bg-cover bg-center bg-no-repeat" style={{backgroundImage: "url('https://lh3.googleusercontent.com/pw/AP1GczN_WeYv4w61Y-kHCfTa-U8EIwdLSY2iZcAoLIi3D3mv8PDZ6eE0ZRrJ0Xa1BZ-1e_0tDxiwLxYEcTz9tOKo6Jph7sMxPKEUG_R5_b9_plUcOp1DKGu8P85jCli6omGxQ614ZtGy-yckv9eD3IrCuQw=w1024-h1536-s-no-gm?authuser=0')"}}>
-      <div className="absolute inset-0 bg-brand-black bg-opacity-60"></div>
-      <div className="relative z-10 text-center text-brand-ivory px-4 animate-fade-in-up">
+    <section id="home" className="h-screen w-full flex items-center justify-center relative overflow-hidden">
+      <div
+        className="absolute top-0 left-0 w-full h-full bg-cover bg-center bg-no-repeat z-0"
+        style={{
+          backgroundImage: "url('https://lh3.googleusercontent.com/pw/AP1GczN_WeYv4w61Y-kHCfTa-U8EIwdLSY2iZcAoLIi3D3mv8PDZ6eE0ZRrJ0Xa1BZ-1e_0tDxiwLxYEcTz9tOKo6Jph7sMxPKEUG_R5_b9_plUcOp1DKGu8P85jCli6omGxQ614ZtGy-yckv9eD3IrCuQw=w1024-h1536-s-no-gm?authuser=0')",
+          transform: `translateY(${offsetY * 0.4}px)`
+        }}
+        aria-hidden="true"
+      />
+      <div className="absolute inset-0 bg-brand-black bg-opacity-60 z-10"></div>
+      <div className="relative z-20 text-center text-brand-ivory px-4 animate-fade-in-up">
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold mb-4 tracking-wide">
           aurélique
         </h1>
