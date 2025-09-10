@@ -28,4 +28,5 @@ export interface Perfume {
   price: number;
   isBestSeller: boolean;
   image: string;
+  isSignature?: boolean;
 }
