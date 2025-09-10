@@ -15,16 +15,16 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div className="flex flex-col items-center md:items-start">
-            <h3 className="font-serif text-3xl font-bold tracking-wider mb-4">Aurélìque</h3>
+            <h3 className="font-serif text-3xl font-bold tracking-wider mb-4">aurélìque</h3>
             <p className="text-sm text-gray-400 max-w-xs">Crafting memories through the art of perfumery since 2024.</p>
           </div>
           
           <div>
             <h4 className="font-sans uppercase tracking-widest text-lg font-semibold mb-4 text-brand-gold">Contact Us</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="mailto:concierge@aurelique.com" className="hover:text-brand-gold-light transition-colors">concierge@aurelique.com</a></li>
-              <li><a href="tel:+622112345678" className="hover:text-brand-gold-light transition-colors">+62 21 1234 5678</a></li>
-              <li><p>Jl. Jenderal Sudirman Kav. 52-53, Jakarta</p></li>
+              <li><a href="mailto:aurelique.perfumery@gmail.com" className="hover:text-brand-gold-light transition-colors">aurelique.perfumery@gmail.com</a></li>
+              <li><a href="https://wa.me/6283840556211" className="hover:text-brand-gold-light transition-colors">+62 838 4055 6211</a></li>
+              <li><p>Jakarta, Indonesia</p></li>
             </ul>
           </div>
 
