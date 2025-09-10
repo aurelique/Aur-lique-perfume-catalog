@@ -3,7 +3,7 @@ import { Perfume, FragranceFamily, Usage } from './types';
 export const PERFUMES: Perfume[] = [
   {
     id: 1,
-    name: "aurélique Lignum Lux",
+    name: "aurélique Lignum Lux (50ml)",
     tagline: "Elegance you can feel, confidence you can wear.",
     mainChords: [FragranceFamily.Citrus, FragranceFamily.Fresh],
     topNotes: ["Lavender", "Pink Pepper", "Aldehyde"],
@@ -38,7 +38,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Seaweed", "Lavender", "Cotton Flower"],
     baseNotes: ["Cedar", "Amber", "Clary Sage"],
     usage: Usage.Day,
-    price: 1350000,
+    price: 175000,
     isBestSeller: true,
     image: "https://picsum.photos/seed/3/400/600"
   },
@@ -51,8 +51,8 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Pepper", "Pelargonium"],
     baseNotes: ["Cedar", "Patchouli", "Vetiver"],
     usage: Usage.AllSeason,
-    price: 2100000,
-    isBestSeller: true,
+    price: 175000,
+    isBestSeller: false,
     image: "https://picsum.photos/seed/4/400/600"
   },
   {
@@ -64,7 +64,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Tuberose", "Jasmine"],
     baseNotes: ["Sandalwood", "Ambroxan"],
     usage: Usage.SpecialOccasion,
-    price: 1850000,
+    price: 175000,
     isBestSeller: false,
     image: "https://picsum.photos/seed/5/400/600"
   },
@@ -77,7 +77,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Cinnamon", "Clary Sage"],
     baseNotes: ["Vanilla", "Amber", "Cedar"],
     usage: Usage.Night,
-    price: 1700000,
+    price: 175000,
     isBestSeller: false,
     image: "https://picsum.photos/seed/6/400/600"
   },
@@ -90,7 +90,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Nutmeg", "Saffron"],
     baseNotes: ["Vetiver", "Musk", "Amber"],
     usage: Usage.Day,
-    price: 1500000,
+    price: 175000,
     isBestSeller: false,
     image: "https://picsum.photos/seed/7/400/600"
   },
@@ -103,7 +103,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Ambergris"],
     baseNotes: ["Oud"],
     usage: Usage.SpecialOccasion,
-    price: 5800000,
+    price: 175000,
     isBestSeller: false,
     image: "https://picsum.photos/seed/8/400/600"
   },
@@ -116,7 +116,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Honey", "Jasmine", "Berries"],
     baseNotes: ["Chocolate", "Caramel", "Patchouli"],
     usage: Usage.Night,
-    price: 1600000,
+    price: 175000,
     isBestSeller: false,
     image: "https://picsum.photos/seed/9/400/600"
   },
@@ -129,7 +129,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Coriander", "Rosemary"],
     baseNotes: ["Oakmoss", "Cedar", "Patchouli"],
     usage: Usage.AllSeason,
-    price: 1450000,
+    price: 175000,
     isBestSeller: true,
     image: "https://picsum.photos/seed/10/400/600"
   },
@@ -142,7 +142,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Jasmine", "Patchouli"],
     baseNotes: ["Cedar", "Leather", "Vanilla"],
     usage: Usage.AllSeason,
-    price: 2200000,
+    price: 175000,
     isBestSeller: true,
     image: "https://picsum.photos/seed/11/400/600"
   },
@@ -155,7 +155,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Agarwood", "Patchouli"],
     baseNotes: ["Musk"],
     usage: Usage.SpecialOccasion,
-    price: 4500000,
+    price: 175000,
     isBestSeller: true,
     image: "https://picsum.photos/seed/12/400/600"
   },
@@ -168,7 +168,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Heliotrope", "Jasmine"],
     baseNotes: ["Sandalwood", "Musk"],
     usage: Usage.Night,
-    price: 4200000,
+    price: 175000,
     isBestSeller: false,
     image: "https://picsum.photos/seed/13/400/600"
   },
@@ -181,7 +181,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Cinnamon", "Saffron"],
     baseNotes: ["Leather", "Tobacco", "Vetiver"],
     usage: Usage.Night,
-    price: 1900000,
+    price: 175000,
     isBestSeller: false,
     image: "https://picsum.photos/seed/14/400/600"
   },
@@ -194,7 +194,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Geranium", "Neroli"],
     baseNotes: ["Musk", "Cedar", "Amber"],
     usage: Usage.Day,
-    price: 1150000,
+    price: 175000,
     isBestSeller: true,
     image: "https://picsum.photos/seed/15/400/600"
   },
@@ -207,7 +207,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Jasmine", "Rose"],
     baseNotes: ["Cedarwood", "Amber", "Musk"],
     usage: Usage.Day,
-    price: 1600000,
+    price: 175000,
     isBestSeller: true,
     image: "https://picsum.photos/seed/16/400/600"
   },
@@ -220,7 +220,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Birch", "Patchouli", "Rose"],
     baseNotes: ["Musk", "Oakmoss", "Ambergris"],
     usage: Usage.AllSeason,
-    price: 6500000,
+    price: 175000,
     isBestSeller: true,
     image: "https://picsum.photos/seed/17/400/600"
   },
@@ -233,7 +233,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Green Tea", "Blackcurrant"],
     baseNotes: ["Musk", "Sandalwood"],
     usage: Usage.Day,
-    price: 6300000,
+    price: 175000,
     isBestSeller: false,
     image: "https://picsum.photos/seed/18/400/600"
   },
@@ -246,7 +246,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Tonka Bean", "Geranium"],
     baseNotes: ["Vanilla", "Vetiver", "Cedarwood"],
     usage: Usage.Night,
-    price: 1850000,
+    price: 175000,
     isBestSeller: true,
     image: "https://picsum.photos/seed/19/400/600"
   },
@@ -259,7 +259,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Freesia", "Musk"],
     baseNotes: ["Vanilla", "Amber"],
     usage: Usage.Day,
-    price: 900000,
+    price: 175000,
     isBestSeller: false,
     image: "https://picsum.photos/seed/20/400/600"
   },
@@ -272,7 +272,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Orange Blossom"],
     baseNotes: ["Vanilla"],
     usage: Usage.Night,
-    price: 1700000,
+    price: 175000,
     isBestSeller: false,
     image: "https://picsum.photos/seed/21/400/600"
   },
@@ -285,7 +285,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Gardenia", "Jasmine"],
     baseNotes: ["Musk", "Vanilla", "White Woods"],
     usage: Usage.Day,
-    price: 1500000,
+    price: 175000,
     isBestSeller: true,
     image: "https://picsum.photos/seed/22/400/600"
   },
@@ -298,7 +298,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Lily", "Peony"],
     baseNotes: ["Cedar", "Amber", "Musk"],
     usage: Usage.Day,
-    price: 1400000,
+    price: 175000,
     isBestSeller: false,
     image: "https://picsum.photos/seed/23/400/600"
   },
@@ -311,7 +311,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Amberwood", "Ambergris"],
     baseNotes: ["Fir Resin", "Cedar"],
     usage: Usage.SpecialOccasion,
-    price: 7500000,
+    price: 175000,
     isBestSeller: true,
     image: "https://picsum.photos/seed/24/400/600"
   },
@@ -324,7 +324,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Neroli", "Jasmine"],
     baseNotes: ["Amber", "Musk", "Vanilla"],
     usage: Usage.AllSeason,
-    price: 1900000,
+    price: 175000,
     isBestSeller: false,
     image: "https://picsum.photos/seed/25/400/600"
   },
@@ -337,7 +337,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Ginger", "Nutmeg", "Jasmine"],
     baseNotes: ["Sandalwood", "Patchouli", "Cedar"],
     usage: Usage.AllSeason,
-    price: 2600000,
+    price: 175000,
     isBestSeller: true,
     image: "https://picsum.photos/seed/26/400/600"
   },
@@ -350,7 +350,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Magnolia", "Rose", "Jasmine"],
     baseNotes: ["Vanilla", "Cedar", "Musk"],
     usage: Usage.SpecialOccasion,
-    price: 2500000,
+    price: 175000,
     isBestSeller: false,
     image: "https://picsum.photos/seed/27/400/600"
   },
@@ -363,7 +363,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Turkish Rose", "Jasmine"],
     baseNotes: ["Patchouli", "Amber", "Musk"],
     usage: Usage.AllSeason,
-    price: 2400000,
+    price: 175000,
     isBestSeller: true,
     image: "https://picsum.photos/seed/28/400/600"
   },
@@ -376,7 +376,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Cupcake Accord", "Jasmine"],
     baseNotes: ["Musk", "Orris Root", "Amber"],
     usage: Usage.Night,
-    price: 800000,
+    price: 175000,
     isBestSeller: false,
     image: "https://picsum.photos/seed/29/400/600"
   },
@@ -389,7 +389,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Rose", "Orange Blossom"],
     baseNotes: ["Amber", "Sandalwood", "Tonka Bean"],
     usage: Usage.SpecialOccasion,
-    price: 2900000,
+    price: 175000,
     isBestSeller: true,
     image: "https://picsum.photos/seed/30/400/600"
   },
@@ -402,7 +402,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Orange Blossom", "Jasmine"],
     baseNotes: ["Cedarwood", "Ambergris", "Vanilla"],
     usage: Usage.AllSeason,
-    price: 2100000,
+    price: 175000,
     isBestSeller: false,
     image: "https://picsum.photos/seed/31/400/600"
   },
@@ -415,7 +415,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Coffee", "Jasmine"],
     baseNotes: ["Vanilla", "Cedarwood", "Patchouli"],
     usage: Usage.Night,
-    price: 1900000,
+    price: 175000,
     isBestSeller: true,
     image: "https://picsum.photos/seed/32/400/600"
   },
@@ -428,7 +428,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Sage", "Juniper Berries", "Geranium"],
     baseNotes: ["Ambergris", "Cedarwood", "Tonka Bean"],
     usage: Usage.AllSeason,
-    price: 2200000,
+    price: 175000,
     isBestSeller: false,
     image: "https://picsum.photos/seed/33/400/600"
   },
@@ -441,7 +441,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Lavender", "Sichuan Pepper", "Pink Pepper"],
     baseNotes: ["Ambroxan", "Cedar", "Labdanum"],
     usage: Usage.AllSeason,
-    price: 2400000,
+    price: 175000,
     isBestSeller: true,
     image: "https://picsum.photos/seed/34/400/600"
   },
@@ -467,7 +467,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Coffee", "Tobacco", "Leather"],
     baseNotes: ["Oak", "Cedarwood", "Patchouli"],
     usage: Usage.Day,
-    price: 1100000,
+    price: 175000,
     isBestSeller: false,
     image: "https://picsum.photos/seed/2/400/600"
   }
