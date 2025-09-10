@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+
+import React, { useState, useEffect, useRef } from 'react';
 import { PERFUMES } from '../constants';
 import { Perfume } from '../types';
 
@@ -18,7 +19,7 @@ const BestSellerCard: React.FC<BestSellerCardProps> = ({ perfume, isExpanded, on
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:-translate-y-1 flex flex-col overflow-hidden text-left">
+    <div className="bg-white rounded-lg shadow-md hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:-translate-y-1 flex flex-col overflow-hidden text-left h-full">
       <div className="relative">
         <img src={perfume.image} alt={perfume.name} className="w-full h-80 object-cover" />
         <div className="absolute top-3 left-3 bg-brand-gold text-brand-black text-xs font-bold uppercase px-3 py-1 tracking-wider rounded-sm">Best Seller</div>
@@ -58,20 +59,54 @@ const BestSellerCard: React.FC<BestSellerCardProps> = ({ perfume, isExpanded, on
 const BestSellers: React.FC = () => {
   const bestSellers = PERFUMES.filter(p => p.isBestSeller);
   const [activeCard, setActiveCard] = useState<number | null>(null);
+  const sectionRef = useRef<HTMLElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(entry.target);
+        }
+      },
+      {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1, // Animate when 10% of the section is visible
+      }
+    );
+
+    const currentRef = sectionRef.current;
+    if (currentRef) {
+      observer.observe(currentRef);
+    }
+
+    return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef);
+      }
+    };
+  }, []);
 
   return (
-    <section id="bestsellers" className="py-20 md:py-32 bg-brand-ivory">
+    <section ref={sectionRef} id="bestsellers" className="py-20 md:py-32 bg-brand-ivory">
       <div className="container mx-auto px-6 text-center">
         <h2 className="font-serif text-4xl md:text-5xl font-bold text-brand-black mb-4">Our Best Sellers</h2>
         <p className="font-sans text-lg text-gray-700 max-w-2xl mx-auto mb-12">Adored by many, these are the signature scents that define Aurélìque.</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
-          {bestSellers.map(perfume => (
-            <BestSellerCard 
-              key={perfume.id} 
-              perfume={perfume} 
-              isExpanded={activeCard === perfume.id}
-              onToggle={() => setActiveCard(activeCard === perfume.id ? null : perfume.id)}
-            />
+          {bestSellers.map((perfume, index) => (
+            <div
+              key={perfume.id}
+              className={`transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+              style={{ transitionDelay: `${index * 150}ms` }}
+            >
+              <BestSellerCard 
+                perfume={perfume} 
+                isExpanded={activeCard === perfume.id}
+                onToggle={() => setActiveCard(activeCard === perfume.id ? null : perfume.id)}
+              />
+            </div>
           ))}
         </div>
       </div>
