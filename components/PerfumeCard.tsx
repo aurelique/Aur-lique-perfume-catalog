@@ -51,7 +51,7 @@ const PerfumeCard: React.FC<PerfumeCardProps> = ({ perfume, isExpanded, onToggle
         <div className="mt-auto pt-4">
           <button
             onClick={onToggle}
-            className="w-full text-center text-brand-gold font-bold py-2 rounded-md hover:bg-brand-gold hover:text-brand-black border-2 border-brand-gold transition-colors duration-300"
+            className="w-full text-center text-brand-gold font-bold py-2 px-4 rounded-md hover:bg-brand-gold hover:text-brand-black border-2 border-brand-gold transition-colors duration-300"
           >
             {isExpanded ? 'Show Less' : 'Details'}
           </button>
