@@ -456,7 +456,7 @@ export const PERFUMES: Perfume[] = [
     isBestSeller: true,
     image: "https://picsum.photos/seed/1/400/600"
   },
-  id: 36,
+  {id: 36,
     name: "CK Free",
     tagline: "Freedom bottled in freshness.",
     mainChords: [FragranceFamily.Aromatic, FragranceFamily.Fresh],
