@@ -105,7 +105,7 @@ const SignatureScents: React.FC<SignatureScentsProps> = ({ setView }) => {
         </button>
         
         {/* Dots */}
-        <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 z-20 flex space-x-3">
+        <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 z-20 flex space-x-3">
             {signatureScents.map((_, index) => (
                 <button
                     key={index}
