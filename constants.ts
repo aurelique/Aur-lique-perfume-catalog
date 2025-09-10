@@ -25,7 +25,7 @@ export const PERFUMES: Perfume[] = [
     baseNotes: ["Amber Accord", "Patchouli", "Ambroxan"],
     usage: Usage.Night,
     price: 195000,
-    isBestSeller: false,
+    isBestSeller: true,
     image: "https://lh3.googleusercontent.com/pw/AP1GczPgKZfEhn9eqGAVBBNoFqIFSfhV8n4m52Qig7ZJIBKL91BLEMZ963HOebPsTS_pF95gOJT5f-xyPy2Q12i7uD6xFmFAGOe_MoRNUlHq-JoLOvq3uVgTjqsZH27xsjLVItkYgtcMSLRZJCTiiJgzRkE=w1024-h1536-s-no-gm?authuser=0",
     isSignature: true,
   },
