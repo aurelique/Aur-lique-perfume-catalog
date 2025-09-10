@@ -12,7 +12,8 @@ export const PERFUMES: Perfume[] = [
     usage: Usage.AllSeason,
     price: 195000,
     isBestSeller: true,
-    image: "https://lh3.googleusercontent.com/pw/AP1GczNKSNxZg-Q-nr8UinSzFfcA27teANrL8aO2RR83BL84Xkd0TkEqhMcXq4aII0HM1Jy6xt9RgC_CBxqOKVMWWVTP7RdYSeNfcKFo2zVquMV1SLk1P8_rAlikPXCoc5G9Lczg3OFPjLz3WFrSnBOBcas=w832-h1248-s-no-gm?authuser=0"
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNKSNxZg-Q-nr8UinSzFfcA27teANrL8aO2RR83BL84Xkd0TkEqhMcXq4aII0HM1Jy6xt9RgC_CBxqOKVMWWVTP7RdYSeNfcKFo2zVquMV1SLk1P8_rAlikPXCoc5G9Lczg3OFPjLz3WFrSnBOBcas=w832-h1248-s-no-gm?authuser=0",
+    isSignature: true,
   },
   {
     id: 2,
@@ -25,7 +26,8 @@ export const PERFUMES: Perfume[] = [
     usage: Usage.Night,
     price: 195000,
     isBestSeller: false,
-    image: "https://lh3.googleusercontent.com/pw/AP1GczPgKZfEhn9eqGAVBBNoFqIFSfhV8n4m52Qig7ZJIBKL91BLEMZ963HOebPsTS_pF95gOJT5f-xyPy2Q12i7uD6xFmFAGOe_MoRNUlHq-JoLOvq3uVgTjqsZH27xsjLVItkYgtcMSLRZJCTiiJgzRkE=w1024-h1536-s-no-gm?authuser=0"
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPgKZfEhn9eqGAVBBNoFqIFSfhV8n4m52Qig7ZJIBKL91BLEMZ963HOebPsTS_pF95gOJT5f-xyPy2Q12i7uD6xFmFAGOe_MoRNUlHq-JoLOvq3uVgTjqsZH27xsjLVItkYgtcMSLRZJCTiiJgzRkE=w1024-h1536-s-no-gm?authuser=0",
+    isSignature: true,
   },
   {
     id: 3,
