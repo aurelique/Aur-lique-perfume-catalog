@@ -14,10 +14,10 @@ const Hero: React.FC<HeroProps> = ({ setView }) => {
           aurélique
         </h1>
         <p className="font-serif italic text-2xl md:text-3xl lg:text-4xl mb-2">
-          The Essence of Luxury
+          The Essence of Iconic Scents
         </p>
         <p className="font-sans text-lg md:text-xl max-w-2xl mx-auto mb-8">
-          Discover timeless fragrances crafted with passion, each bottle a journey to an unforgettable memory.
+          Experience inspired fragrances that capture the soul of the world’s most beloved perfumes—luxury, made accessible.
         </p>
         <button 
           onClick={setView}
