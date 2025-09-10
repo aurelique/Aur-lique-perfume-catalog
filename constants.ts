@@ -76,7 +76,7 @@ export const PERFUMES: Perfume[] = [
     baseNotes: ["Vanilla", "Amber", "Cedar"],
     usage: Usage.Night,
     price: 1700000,
-    isBestSeller: true,
+    isBestSeller: false,
     image: "https://picsum.photos/seed/6/400/600"
   },
   {
@@ -89,7 +89,7 @@ export const PERFUMES: Perfume[] = [
     baseNotes: ["Vetiver", "Musk", "Amber"],
     usage: Usage.Day,
     price: 1500000,
-    isBestSeller: true,
+    isBestSeller: false,
     image: "https://picsum.photos/seed/7/400/600"
   },
   {
@@ -115,7 +115,7 @@ export const PERFUMES: Perfume[] = [
     baseNotes: ["Chocolate", "Caramel", "Patchouli"],
     usage: Usage.Night,
     price: 1600000,
-    isBestSeller: true,
+    isBestSeller: false,
     image: "https://picsum.photos/seed/9/400/600"
   },
   {
@@ -180,7 +180,7 @@ export const PERFUMES: Perfume[] = [
     baseNotes: ["Leather", "Tobacco", "Vetiver"],
     usage: Usage.Night,
     price: 1900000,
-    isBestSeller: true,
+    isBestSeller: false,
     image: "https://picsum.photos/seed/14/400/600"
   },
   {
@@ -349,7 +349,7 @@ export const PERFUMES: Perfume[] = [
     baseNotes: ["Vanilla", "Cedar", "Musk"],
     usage: Usage.SpecialOccasion,
     price: 2500000,
-    isBestSeller: true,
+    isBestSeller: false,
     image: "https://picsum.photos/seed/27/400/600"
   },
   {
@@ -401,7 +401,7 @@ export const PERFUMES: Perfume[] = [
     baseNotes: ["Cedarwood", "Ambergris", "Vanilla"],
     usage: Usage.AllSeason,
     price: 2100000,
-    isBestSeller: true,
+    isBestSeller: false,
     image: "https://picsum.photos/seed/31/400/600"
   },
   {
@@ -427,7 +427,7 @@ export const PERFUMES: Perfume[] = [
     baseNotes: ["Ambergris", "Cedarwood", "Tonka Bean"],
     usage: Usage.AllSeason,
     price: 2200000,
-    isBestSeller: true,
+    isBestSeller: false,
     image: "https://picsum.photos/seed/33/400/600"
   },
   {
