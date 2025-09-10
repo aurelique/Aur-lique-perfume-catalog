@@ -10,7 +10,7 @@ export const PERFUMES: Perfume[] = [
     heartNotes: ["Nutmeg", "Violet", "Rose"],
     baseNotes: ["Green Tea", "Amber", "Musk"],
     usage: Usage.AllSeason,
-    price: 950000,
+    price: 175000,
     isBestSeller: true,
     image: "https://picsum.photos/seed/1/400/600"
   },
