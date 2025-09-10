@@ -47,7 +47,7 @@ const Navbar: React.FC<NavbarProps> = ({ setView, currentView }) => {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out ${isScrolled ? 'bg-brand-black shadow-lg' : 'bg-transparent'}`}>
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#" onClick={() => handleNavClick('home')} className={`font-serif text-3xl font-bold tracking-wider transition-colors ${isScrolled || isMenuOpen ? 'text-brand-ivory' : 'text-brand-ivory'}`}>
-          Aurélìque
+          Aurélique
         </a>
         
         {/* Desktop Menu */}
