@@ -6,6 +6,7 @@ import BestSellers from './components/BestSellers';
 import About from './components/About';
 import Collection from './components/Collection';
 import Footer from './components/Footer';
+import SignatureScents from './components/SignatureScents';
 
 type View = 'home' | 'collection';
 
@@ -39,6 +40,7 @@ const App: React.FC = () => {
         {view === 'home' ? (
           <>
             <Hero setView={() => handleNavigation('collection')} />
+            <SignatureScents setView={() => handleNavigation('collection')} />
             <BestSellers />
             <About />
           </>
