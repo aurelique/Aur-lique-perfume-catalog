@@ -3,16 +3,16 @@ import { Perfume, FragranceFamily, Usage } from './types';
 export const PERFUMES: Perfume[] = [
   {
     id: 1,
-    name: "CK One",
-    tagline: "A timeless unisex freshness.",
+    name: "Aurélique Lignum Lux",
+    tagline: "Elegance you can feel, confidence you can wear.",
     mainChords: [FragranceFamily.Citrus, FragranceFamily.Fresh],
-    topNotes: ["Pineapple", "Mandarin Orange", "Papaya"],
-    heartNotes: ["Nutmeg", "Violet", "Rose"],
-    baseNotes: ["Green Tea", "Amber", "Musk"],
+    topNotes: ["Lavender", "Pink Pepper", "Aldehyde"],
+    heartNotes: ["Linalool", "Jasmine", "Violet"],
+    baseNotes: ["Musk", "Cedarwood Virginia", "Woody"],
     usage: Usage.AllSeason,
-    price: 175000,
+    price: 195000,
     isBestSeller: true,
-    image: "https://picsum.photos/seed/1/400/600"
+    image: "https://lh3.googleusercontent.com/pw/AP1GczNKSNxZg-Q-nr8UinSzFfcA27teANrL8aO2RR83BL84Xkd0TkEqhMcXq4aII0HM1Jy6xt9RgC_CBxqOKVMWWVTP7RdYSeNfcKFo2zVquMV1SLk1P8_rAlikPXCoc5G9Lczg3OFPjLz3WFrSnBOBcas=w832-h1248-s-no-gm?authuser=0"
   },
   {
     id: 2,
@@ -442,5 +442,18 @@ export const PERFUMES: Perfume[] = [
     price: 2400000,
     isBestSeller: true,
     image: "https://picsum.photos/seed/34/400/600"
+  },
+ {
+    id: 35,
+    name: "CK One",
+    tagline: "A timeless unisex freshness.",
+    mainChords: [FragranceFamily.Citrus, FragranceFamily.Fresh],
+    topNotes: ["Pineapple", "Mandarin Orange", "Papaya"],
+    heartNotes: ["Nutmeg", "Violet", "Rose"],
+    baseNotes: ["Green Tea", "Amber", "Musk"],
+    usage: Usage.AllSeason,
+    price: 175000,
+    isBestSeller: true,
+    image: "https://picsum.photos/seed/1/400/600"
   }
 ]
