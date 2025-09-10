@@ -3,7 +3,7 @@ import { Perfume, FragranceFamily, Usage } from './types';
 export const PERFUMES: Perfume[] = [
   {
     id: 1,
-    name: "Aurélique Lignum Lux",
+    name: "aurélique Lignum Lux",
     tagline: "Elegance you can feel, confidence you can wear.",
     mainChords: [FragranceFamily.Citrus, FragranceFamily.Fresh],
     topNotes: ["Lavender", "Pink Pepper", "Aldehyde"],
@@ -16,16 +16,16 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 2,
-    name: "CK Free",
-    tagline: "Freedom bottled in freshness.",
-    mainChords: [FragranceFamily.Aromatic, FragranceFamily.Fresh],
-    topNotes: ["Absinthe", "Jackfruit", "Star Anise"],
-    heartNotes: ["Coffee", "Tobacco", "Leather"],
-    baseNotes: ["Oak", "Cedarwood", "Patchouli"],
-    usage: Usage.Day,
-    price: 1100000,
+    name: "aurélique Dominus",
+    tagline: "A Bold Signature for the Modern Gentleman.",
+    mainChords: [FragranceFamily.Aromatic, FragranceFamily.Spicy],
+    topNotes: ["Pink Pepper", "Lavender", "Eucalyptol"],
+    heartNotes: ["Rose", "Tobacco", "Violet"],
+    baseNotes: ["Amber Accord", "Patchouli", "Ambroxan"],
+    usage: Usage.Night,
+    price: 195000,
     isBestSeller: false,
-    image: "https://picsum.photos/seed/2/400/600"
+    image: "https://lh3.googleusercontent.com/pw/AP1GczPgKZfEhn9eqGAVBBNoFqIFSfhV8n4m52Qig7ZJIBKL91BLEMZ963HOebPsTS_pF95gOJT5f-xyPy2Q12i7uD6xFmFAGOe_MoRNUlHq-JoLOvq3uVgTjqsZH27xsjLVItkYgtcMSLRZJCTiiJgzRkE=w1024-h1536-s-no-gm?authuser=0"
   },
   {
     id: 3,
@@ -455,5 +455,17 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     isBestSeller: true,
     image: "https://picsum.photos/seed/1/400/600"
+  },
+  id: 36,
+    name: "CK Free",
+    tagline: "Freedom bottled in freshness.",
+    mainChords: [FragranceFamily.Aromatic, FragranceFamily.Fresh],
+    topNotes: ["Absinthe", "Jackfruit", "Star Anise"],
+    heartNotes: ["Coffee", "Tobacco", "Leather"],
+    baseNotes: ["Oak", "Cedarwood", "Patchouli"],
+    usage: Usage.Day,
+    price: 1100000,
+    isBestSeller: false,
+    image: "https://picsum.photos/seed/2/400/600"
   }
 ]
