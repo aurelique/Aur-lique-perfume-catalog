@@ -27,7 +27,10 @@ const BestSellerCard: React.FC<BestSellerCardProps> = ({ perfume, isExpanded, on
       <div className="p-5 flex flex-col flex-grow">
         <h3 className="font-serif text-2xl font-semibold text-brand-black">{perfume.name}</h3>
         <p className="text-sm text-gray-500 mb-3">{perfume.tagline}</p>
-        <p className="font-sans text-xl font-bold text-brand-gold mb-4">{formatPrice(perfume.price)}</p>
+        <div className="flex justify-between items-baseline mb-4">
+            <p className="font-sans text-xl font-bold text-brand-gold">{formatPrice(perfume.price)}</p>
+            <p className="text-sm font-sans text-gray-500">{perfume.size}ml</p>
+        </div>
 
         <div 
           className={`transition-all duration-500 ease-in-out grid gap-3 overflow-hidden ${isExpanded ? 'max-h-96 opacity-100 mt-2 mb-4' : 'max-h-0 opacity-0'}`}
