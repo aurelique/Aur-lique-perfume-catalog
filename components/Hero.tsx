@@ -11,7 +11,7 @@ const Hero: React.FC<HeroProps> = ({ setView }) => {
       <div className="absolute inset-0 bg-brand-black bg-opacity-60"></div>
       <div className="relative z-10 text-center text-brand-ivory px-4 animate-fade-in-up">
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold mb-4 tracking-wide">
-          Aurélìque
+          Aurélique
         </h1>
         <p className="font-serif italic text-2xl md:text-3xl lg:text-4xl mb-2">
           The Essence of Luxury
