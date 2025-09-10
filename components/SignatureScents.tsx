@@ -91,7 +91,8 @@ const SignatureScents: React.FC<SignatureScentsProps> = ({ setView }) => {
                 <p className="font-sans uppercase tracking-widest text-brand-gold text-sm mb-2">{perfume.mainChords.join(' • ')}</p>
                 <h3 className="font-serif text-4xl lg:text-5xl font-bold mb-3">{perfume.name}</h3>
                 <p className="font-serif italic text-xl text-gray-300 mb-6">{perfume.tagline}</p>
-                
+                 <p></p>
+                 <p></p>
                 <button 
                   onClick={setView}
                   className="bg-brand-gold text-brand-black font-sans uppercase tracking-widest py-3 px-8 hover:bg-brand-gold-light transition-all duration-300 ease-in-out text-base"
