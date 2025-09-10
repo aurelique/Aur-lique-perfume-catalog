@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import { PERFUMES } from '../constants';
 import { Perfume } from '../types';
@@ -57,52 +56,59 @@ const BestSellerCard: React.FC<BestSellerCardProps> = ({ perfume, isExpanded, on
 };
 
 const BestSellers: React.FC = () => {
-  const bestSellers = PERFUMES.filter(p => p.isBestSeller);
   const [activeCard, setActiveCard] = useState<number | null>(null);
-  const sectionRef = useRef<HTMLElement>(null);
-  const [isVisible, setIsVisible] = useState(false);
+  const bestSellers = PERFUMES.filter(p => p.isBestSeller);
+  const observerRef = useRef<IntersectionObserver | null>(null);
+  const sectionRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.unobserve(entry.target);
-        }
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+          }
+        });
       },
       {
-        root: null,
-        rootMargin: '0px',
-        threshold: 0.1, // Animate when 10% of the section is visible
+        threshold: 0.1,
       }
     );
 
-    const currentRef = sectionRef.current;
-    if (currentRef) {
-      observer.observe(currentRef);
+    observerRef.current = observer;
+
+    const currentSection = sectionRef.current;
+    if (currentSection) {
+      const cards = currentSection.querySelectorAll('.seller-card');
+      cards.forEach((card) => observer.observe(card as Element));
     }
 
     return () => {
-      if (currentRef) {
-        observer.unobserve(currentRef);
+      if (currentSection) {
+        const cards = currentSection.querySelectorAll('.seller-card');
+        if (observerRef.current) {
+            cards.forEach((card) => observerRef.current!.unobserve(card as Element));
+        }
       }
     };
-  }, []);
+  }, [bestSellers]);
 
   return (
     <section ref={sectionRef} id="bestsellers" className="py-20 md:py-32 bg-brand-ivory">
-      <div className="container mx-auto px-6 text-center">
-        <h2 className="font-serif text-4xl md:text-5xl font-bold text-brand-black mb-4">Our Best Sellers</h2>
-        <p className="font-sans text-lg text-gray-700 max-w-2xl mx-auto mb-12">Adored by many, these are the signature scents that define Aurélìque.</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
+      <div className="container mx-auto px-6">
+        <div className="text-center mb-16">
+          <h2 className="font-serif text-4xl md:text-5xl font-bold text-brand-black">Our Best Sellers</h2>
+          <p className="font-sans text-lg text-gray-600 mt-4 max-w-2xl mx-auto">Discover the fragrances that have captured the hearts of many.</p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {bestSellers.map((perfume, index) => (
             <div
               key={perfume.id}
-              className={`transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+              className="seller-card opacity-0 transform translate-y-8 transition-all duration-700 ease-out"
               style={{ transitionDelay: `${index * 150}ms` }}
             >
-              <BestSellerCard 
-                perfume={perfume} 
+              <BestSellerCard
+                perfume={perfume}
                 isExpanded={activeCard === perfume.id}
                 onToggle={() => setActiveCard(activeCard === perfume.id ? null : perfume.id)}
               />
@@ -110,6 +116,12 @@ const BestSellers: React.FC = () => {
           ))}
         </div>
       </div>
+      <style>{`
+        .is-visible {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      `}</style>
     </section>
   );
 };
