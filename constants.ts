@@ -33,7 +33,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 3,
-    name: "Bvlgary Aqua",
+    name: "Bvlgary Aqua (inspired)",
     tagline: "The essence of Mediterranean water.",
     mainChords: [FragranceFamily.Fresh, FragranceFamily.Citrus],
     topNotes: ["Mandarin", "Petitgrain"],
@@ -47,7 +47,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 4,
-    name: "Terre D'Hermes",
+    name: "Terre D'Hermes (inspired)",
     tagline: "Earthy elegance under the sky.",
     mainChords: [FragranceFamily.Woody, FragranceFamily.Spicy],
     topNotes: ["Orange", "Grapefruit"],
@@ -61,7 +61,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 5,
-    name: "JPG SO Scandal",
+    name: "JPG SO Scandal (inspired)",
     tagline: "A scandalous floral delight.",
     mainChords: [FragranceFamily.Floral, FragranceFamily.Oriental],
     topNotes: ["Raspberry", "Orange Blossom"],
@@ -75,7 +75,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 6,
-    name: "JPG Ultra Male",
+    name: "JPG Ultra Male (inspired)",
     tagline: "The ultimate seductive power.",
     mainChords: [FragranceFamily.Spicy, FragranceFamily.Oriental],
     topNotes: ["Pear", "Lavender", "Mint"],
@@ -89,7 +89,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 7,
-    name: "Issey Miyake Man",
+    name: "Issey Miyake Man (inspired)",
     tagline: "Minimalist aquatic elegance.",
     mainChords: [FragranceFamily.Fresh, FragranceFamily.Aromatic],
     topNotes: ["Yuzu", "Cypress", "Coriander"],
@@ -103,7 +103,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 8,
-    name: "LV Les Sables Rose",
+    name: "LV Les Sables Rose (inspired)",
     tagline: "Rose and oud in the desert wind.",
     mainChords: [FragranceFamily.Oriental, FragranceFamily.Floral],
     topNotes: ["Rose"],
@@ -117,7 +117,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 9,
-    name: "Angel Mugler",
+    name: "Angel Mugler (inspired)",
     tagline: "Sweet gourmand starlight.",
     mainChords: [FragranceFamily.Oriental, FragranceFamily.Floral],
     topNotes: ["Cotton Candy", "Coconut", "Mandarin"],
@@ -131,7 +131,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 10,
-    name: "Acqua Di Gio Man",
+    name: "Acqua Di Gio Man (inspired)",
     tagline: "An eternal Mediterranean classic.",
     mainChords: [FragranceFamily.Citrus, FragranceFamily.Fresh],
     topNotes: ["Lime", "Lemon", "Jasmine"],
@@ -145,7 +145,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 11,
-    name: "Mancera Cedrat Boise",
+    name: "Mancera Cedrat Boise (inspired)",
     tagline: "Fruity citrus with woody depth.",
     mainChords: [FragranceFamily.Citrus, FragranceFamily.Woody],
     topNotes: ["Sicilian Lemon", "Black Currant"],
@@ -159,7 +159,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 12,
-    name: "Initio Oud For Greatness",
+    name: "Initio Oud For Greatness (inspired)",
     tagline: "Majestic oud power.",
     mainChords: [FragranceFamily.Oriental, FragranceFamily.Spicy],
     topNotes: ["Saffron", "Nutmeg", "Lavender"],
@@ -173,7 +173,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 13,
-    name: "Initio Psychedelic Love",
+    name: "Initio Psychedelic Love (inspired)",
     tagline: "A hypnotic white floral addiction.",
     mainChords: [FragranceFamily.Floral, FragranceFamily.Oriental],
     topNotes: ["Bergamot", "Rose"],
@@ -187,7 +187,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 14,
-    name: "Spicebomb",
+    name: "Spicebomb (inspired)",
     tagline: "An explosion of spices.",
     mainChords: [FragranceFamily.Spicy, FragranceFamily.Woody],
     topNotes: ["Pink Pepper", "Bergamot", "Grapefruit"],
@@ -201,7 +201,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 15,
-    name: "Davidoff Coolwater",
+    name: "Davidoff Coolwater (inspired)",
     tagline: "A cool wave of freshness.",
     mainChords: [FragranceFamily.Fresh, FragranceFamily.Aromatic],
     topNotes: ["Mint", "Lavender", "Coriander"],
@@ -210,12 +210,12 @@ export const PERFUMES: Perfume[] = [
     usage: Usage.Day,
     price: 175000,
     size: 30,
-    isBestSeller: true,
+    isBestSeller: false,
     image: "https://picsum.photos/seed/15/400/600"
   },
   {
     id: 16,
-    name: "D&G Light Blue",
+    name: "D&G Light Blue (inspired)",
     tagline: "Mediterranean sun in a bottle.",
     mainChords: [FragranceFamily.Citrus, FragranceFamily.Fresh],
     topNotes: ["Sicilian Lemon", "Apple"],
@@ -229,7 +229,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 17,
-    name: "Creed Aventus",
+    name: "Creed Aventus (inspired)",
     tagline: "The king of modern chypres.",
     mainChords: [FragranceFamily.Woody, FragranceFamily.Fruity],
     topNotes: ["Pineapple", "Blackcurrant", "Apple"],
@@ -243,7 +243,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 18,
-    name: "Creed Silver Mountain Water",
+    name: "Creed Silver Mountain Water (inspired)",
     tagline: "Fresh alpine purity.",
     mainChords: [FragranceFamily.Fresh, FragranceFamily.Citrus],
     topNotes: ["Bergamot", "Mandarin"],
@@ -257,7 +257,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 19,
-    name: "Versace Eros",
+    name: "Versace Eros (inspired)",
     tagline: "Passionate Greek god energy.",
     mainChords: [FragranceFamily.Aromatic, FragranceFamily.Fresh],
     topNotes: ["Mint", "Green Apple", "Lemon"],
@@ -271,7 +271,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 20,
-    name: "Selena Gomez",
+    name: "Selena Gomez (inspired)",
     tagline: "Playful fruity sweetness.",
     mainChords: [FragranceFamily.Floral, FragranceFamily.Fruity],
     topNotes: ["Peach", "Raspberry", "Pineapple"],
@@ -285,7 +285,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 21,
-    name: "Prada Candy Kiss",
+    name: "Prada Candy Kiss (inspired)",
     tagline: "A kiss of sweet addiction.",
     mainChords: [FragranceFamily.Oriental, FragranceFamily.Floral],
     topNotes: ["Musk"],
@@ -299,7 +299,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 22,
-    name: "Marc Jacob Daisy",
+    name: "Marc Jacob Daisy (inspired)",
     tagline: "Youthful floral charm.",
     mainChords: [FragranceFamily.Floral, FragranceFamily.Fresh],
     topNotes: ["Strawberry", "Violet Leaf"],
@@ -313,7 +313,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 23,
-    name: "Issey Miyake Woman",
+    name: "Issey Miyake Woman (inspired)",
     tagline: "A delicate floral aquatic harmony.",
     mainChords: [FragranceFamily.Floral, FragranceFamily.Fresh],
     topNotes: ["Lotus", "Rose Water"],
@@ -327,7 +327,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 24,
-    name: "Baccarat Rouge",
+    name: "Baccarat Rouge (inspired)",
     tagline: "Crystalline sweetness in the air.",
     mainChords: [FragranceFamily.Oriental, FragranceFamily.Aromatic],
     topNotes: ["Saffron", "Jasmine"],
@@ -341,7 +341,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 25,
-    name: "Prada Paradox",
+    name: "Prada Paradox (inspired)",
     tagline: "The paradox of modern femininity.",
     mainChords: [FragranceFamily.Floral, FragranceFamily.Oriental],
     topNotes: ["Pear", "Tangerine"],
@@ -355,7 +355,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 26,
-    name: "Bleu De Chanel",
+    name: "Bleu De Chanel (inspired)",
     tagline: "Timeless woody aromatic elegance.",
     mainChords: [FragranceFamily.Woody, FragranceFamily.Aromatic],
     topNotes: ["Lemon", "Mint", "Pink Pepper"],
@@ -369,7 +369,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 27,
-    name: "Dior Jadore",
+    name: "Dior Jadore (inspired)",
     tagline: "Golden floral radiance.",
     mainChords: [FragranceFamily.Floral, FragranceFamily.Oriental],
     topNotes: ["Pear", "Peach", "Bergamot"],
@@ -383,7 +383,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 28,
-    name: "Miss Dior",
+    name: "Miss Dior (inspired)",
     tagline: "Romantic elegance reborn.",
     mainChords: [FragranceFamily.Floral, FragranceFamily.Fresh],
     topNotes: ["Blood Orange", "Mandarin"],
@@ -397,7 +397,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 29,
-    name: "Britney Spears Fantasy",
+    name: "Britney Spears Fantasy (inspired)",
     tagline: "A playful fruity gourmand.",
     mainChords: [FragranceFamily.Floral, FragranceFamily.Oriental],
     topNotes: ["Kiwi", "Lychee", "Quince"],
@@ -411,7 +411,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 30,
-    name: "Chanel COCO",
+    name: "Chanel COCO (inspired)",
     tagline: "Classic oriental sophistication.",
     mainChords: [FragranceFamily.Oriental, FragranceFamily.Spicy],
     topNotes: ["Mandarin", "Coriander"],
@@ -425,7 +425,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 31,
-    name: "YSL Libre",
+    name: "YSL Libre (inspired)",
     tagline: "Freedom in a floral breeze.",
     mainChords: [FragranceFamily.Floral, FragranceFamily.Aromatic],
     topNotes: ["Lavender", "Mandarin", "Black Currant"],
@@ -439,7 +439,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 32,
-    name: "YSL Black Opium",
+    name: "YSL Black Opium (inspired)",
     tagline: "The addictive coffee floral.",
     mainChords: [FragranceFamily.Oriental, FragranceFamily.Floral],
     topNotes: ["Pear", "Pink Pepper", "Orange Blossom"],
@@ -453,7 +453,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 33,
-    name: "YSL Y",
+    name: "YSL Y (inspired)",
     tagline: "Modern masculinity with fresh boldness.",
     mainChords: [FragranceFamily.Fresh, FragranceFamily.Aromatic],
     topNotes: ["Aldehydes", "Bergamot", "Ginger"],
@@ -467,7 +467,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 34,
-    name: "Dior Sauvage",
+    name: "Dior Sauvage (inspired)",
     tagline: "Raw freshness and bold strength.",
     mainChords: [FragranceFamily.Aromatic, FragranceFamily.Spicy],
     topNotes: ["Calabrian Bergamot", "Pepper"],
@@ -481,7 +481,7 @@ export const PERFUMES: Perfume[] = [
   },
  {
     id: 35,
-    name: "CK One",
+    name: "CK One (inspired)",
     tagline: "A timeless unisex freshness.",
     mainChords: [FragranceFamily.Citrus, FragranceFamily.Fresh],
     topNotes: ["Pineapple", "Mandarin Orange", "Papaya"],
@@ -495,7 +495,7 @@ export const PERFUMES: Perfume[] = [
   },
   {
     id: 36,
-    name: "CK Free",
+    name: "CK Free (inspired)",
     tagline: "Freedom bottled in freshness.",
     mainChords: [FragranceFamily.Aromatic, FragranceFamily.Fresh],
     topNotes: ["Absinthe", "Jackfruit", "Star Anise"],
