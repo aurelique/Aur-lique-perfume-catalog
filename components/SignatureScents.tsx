@@ -89,7 +89,7 @@ const SignatureScents: React.FC<SignatureScentsProps> = ({ setView }) => {
               </div>
               <div className={`w-full md:w-1/2 text-center md:text-left transition-transform transform duration-1000 ${index === currentIndex ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'}`} style={{ transitionDelay: index === currentIndex ? '400ms' : '0s' }}>
                 <p className="font-sans uppercase tracking-widest text-brand-gold text-sm mb-2">{perfume.mainChords.join(' • ')}</p>
-                <h3 className="font-serif text-4xl lg:text-5xl font-bold mb-3">{perfume.name}</h3>
+                <h3 className="font-serif text-2xl lg:text-4xl font-bold mb-3">{perfume.name}</h3>
                 <p className="font-serif italic text-xl text-gray-300 mb-6">{perfume.tagline}</p>
               </div>
             </div>
