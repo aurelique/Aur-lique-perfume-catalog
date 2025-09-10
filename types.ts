@@ -26,6 +26,7 @@ export interface Perfume {
   baseNotes: string[];
   usage: Usage;
   price: number;
+  size: number;
   isBestSeller: boolean;
   image: string;
   isSignature?: boolean;
