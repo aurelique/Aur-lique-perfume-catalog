@@ -15,7 +15,7 @@ export const PERFUMES: Perfume[] = [
     isOnSale: true,
     size: 50,
     isBestSeller: true,
-    image: "https://lh3.googleusercontent.com/pw/AP1GczNKSNxZg-Q-nr8UinSzFfcA27teANrL8aO2RR83BL84Xkd0TkEqhMcXq4aII0HM1Jy6xt9RgC_CBxqOKVMWWVTP7RdYSeNfcKFo2zVquMV1SLk1P8_rAlikPXCoc5G9Lczg3OFPjLz3WFrSnBOBcas=w832-h1248-s-no-gm?authuser=0",
+    image: "https://lh3.googleusercontent.com/pw/AP1GczMMM5ISS1E8fpEykobnMDIsDVlEGt9cs9xyhmhRC7ni65WB8k0GmwUxyhMchCRkM4-JOyg9HdKkH3mNGREX6slMqa9WHmiuPhNA7deRvEis0iHubyU3hVVZWqrJMoRnGVVzr2LJZ36WRs-b4tVbwpA=w767-h1151-s-no-gm?authuser=0",
     isSignature: true,
   },
   {
