@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div className="flex flex-col items-center md:items-start">
-            <h3 className="font-serif text-3xl font-bold tracking-wider mb-4">aurélìque</h3>
+            <h3 className="font-serif text-3xl font-bold tracking-wider mb-4">aurélique</h3>
             <p className="text-sm text-gray-400 max-w-xs">Crafting memories through the art of perfumery since 2024.</p>
           </div>
           
