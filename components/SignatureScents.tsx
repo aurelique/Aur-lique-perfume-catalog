@@ -83,20 +83,14 @@ const SignatureScents: React.FC<SignatureScentsProps> = ({ setView }) => {
             className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 ease-in-out ${index === currentIndex ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
             style={{ transitionDelay: index === currentIndex ? '0s' : '0s' }}
           >
-            <div className="flex flex-col md:flex-row items-center justify-center h-full gap-8 px-6">
+            <div className="flex flex-col md:flex-row items-center justify-center h-full gap-8 px-6 pb-16 md:pb-0">
               <div className={`w-full md:w-1/2 flex justify-center items-center transition-transform transform duration-1000 ${index === currentIndex ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'}`} style={{ transitionDelay: index === currentIndex ? '200ms' : '0s' }}>
-                <img src={perfume.image} alt={perfume.name} className="max-h-[500px] object-contain shadow-2xl shadow-brand-gold/10" />
+                <img src={perfume.image} alt={perfume.name} className="max-h-[420px] md:max-h-[500px] object-contain shadow-2xl shadow-brand-gold/10" />
               </div>
               <div className={`w-full md:w-1/2 text-center md:text-left transition-transform transform duration-1000 ${index === currentIndex ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'}`} style={{ transitionDelay: index === currentIndex ? '400ms' : '0s' }}>
                 <p className="font-sans uppercase tracking-widest text-brand-gold text-sm mb-2">{perfume.mainChords.join(' • ')}</p>
                 <h3 className="font-serif text-4xl lg:text-5xl font-bold mb-3">{perfume.name}</h3>
                 <p className="font-serif italic text-xl text-gray-300 mb-6">{perfume.tagline}</p>
-                <button 
-                  onClick={setView}
-                  className="bg-brand-gold text-brand-black font-sans uppercase tracking-widest py-3 px-8 hover:bg-brand-gold-light transition-all duration-300 ease-in-out text-base"
-                >
-                  Discover Now
-                </button>
               </div>
             </div>
           </div>
