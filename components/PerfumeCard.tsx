@@ -28,14 +28,24 @@ const PerfumeCard: React.FC<PerfumeCardProps> = ({ perfume, isExpanded, onToggle
       <div className="relative cursor-pointer" onClick={onToggle}>
         <img src={perfume.image} alt={perfume.name} className="w-full h-80 object-cover" />
         <div className="absolute inset-0 bg-black bg-opacity-10 hover:bg-opacity-0 transition-opacity duration-300"></div>
+         {perfume.isOnSale && (
+          <div className="absolute top-3 right-3 bg-brand-gold text-brand-black text-xs font-bold uppercase px-3 py-1 tracking-wider rounded-sm z-10">Promo</div>
+        )}
       </div>
       
       <div className="p-5 flex flex-col flex-grow">
         <h3 className="font-serif text-2xl font-semibold text-brand-black">{perfume.name}</h3>
         <p className="text-sm text-gray-500 mb-3">{perfume.mainChords.join(' • ')}</p>
         <div className="flex justify-between items-baseline mb-4">
-          <p className="font-sans text-xl font-bold text-brand-gold">{formatPrice(perfume.price)}</p>
-          <p className="text-sm font-sans text-gray-500">{perfume.size}ml</p>
+           <div className="flex items-baseline gap-2 flex-wrap">
+              {perfume.isOnSale && perfume.originalPrice && (
+                <p className="text-lg text-gray-400 line-through">
+                  {formatPrice(perfume.originalPrice)}
+                </p>
+              )}
+              <p className="font-sans text-xl font-bold text-brand-gold">{formatPrice(perfume.price)}</p>
+            </div>
+          <p className="text-sm font-sans text-gray-500 flex-shrink-0">{perfume.size}ml</p>
         </div>
 
         <div 
