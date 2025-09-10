@@ -1,4 +1,3 @@
-
 import React, { useState, useMemo, useEffect } from 'react';
 import { PERFUMES } from '../constants';
 import { Perfume, FragranceFamily, Usage } from '../types';
