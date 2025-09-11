@@ -341,7 +341,7 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     size: 30,
     isBestSeller: true,
-    image: "https://picsum.photos/seed/24/400/600"
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81ztg-meb8v8gmufib85@resize_w1200_nl.webp"
   },
   {
     id: 25,
