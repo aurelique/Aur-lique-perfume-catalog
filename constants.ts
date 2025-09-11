@@ -47,7 +47,7 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     size: 30,
     isBestSeller: true,
-    image: "https://picsum.photos/seed/3/400/600"
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81ztj-meau1qgyes5cd4@resize_w1200_nl.webp"
   },
   {
     id: 4,
@@ -103,7 +103,7 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     size: 30,
     isBestSeller: false,
-    image: "https://picsum.photos/seed/7/400/600"
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81ztk-meb2epd406bpc7@resize_w1200_nl.webp"
   },
   {
     id: 8,
@@ -145,7 +145,7 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     size: 30,
     isBestSeller: true,
-    image: "https://picsum.photos/seed/10/400/600"
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81ztf-meb2s8igs0777c@resize_w1200_nl.webp"
   },
   {
     id: 11,
@@ -173,7 +173,7 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     size: 30,
     isBestSeller: true,
-    image: "https://picsum.photos/seed/12/400/600"
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81ztm-meb4us8jj95192@resize_w1200_nl.webp"
   },
   {
     id: 13,
@@ -215,7 +215,7 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     size: 30,
     isBestSeller: false,
-    image: "https://picsum.photos/seed/15/400/600"
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81ztk-meaweb76991d1f@resize_w1200_nl.webp"
   },
   {
     id: 16,
@@ -229,7 +229,7 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     size: 30,
     isBestSeller: true,
-    image: "https://picsum.photos/seed/16/400/600"
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81zte-meb3tah22tj9db@resize_w1200_nl.webp"
   },
   {
     id: 17,
@@ -243,7 +243,7 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     size: 30,
     isBestSeller: true,
-    image: "https://picsum.photos/seed/17/400/600"
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81ztq-meb7kj1khou826@resize_w1200_nl.webp"
   },
   {
     id: 18,
@@ -257,7 +257,7 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     size: 30,
     isBestSeller: false,
-    image: "https://picsum.photos/seed/18/400/600"
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81ztq-meb3tah0lfyf4f@resize_w1200_nl.webp"
   },
   {
     id: 19,
@@ -271,7 +271,7 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     size: 30,
     isBestSeller: true,
-    image: "https://picsum.photos/seed/19/400/600"
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81zto-meb44go18gsk0f@resize_w1200_nl.webp"
   },
   {
     id: 20,
@@ -313,7 +313,7 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     size: 30,
     isBestSeller: true,
-    image: "https://picsum.photos/seed/22/400/600"
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81ztq-meb8v8gmj6yr8f@resize_w1200_nl.webp"
   },
   {
     id: 23,
@@ -327,7 +327,7 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     size: 30,
     isBestSeller: false,
-    image: "https://picsum.photos/seed/23/400/600"
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81ztf-meb44go0ymtg46@resize_w1200_nl.webp"
   },
   {
     id: 24,
@@ -369,7 +369,7 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     size: 30,
     isBestSeller: true,
-    image: "https://picsum.photos/seed/26/400/600"
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81ztf-meb7kj1k7uv47a@resize_w1200_nl.webp"
   },
   {
     id: 27,
@@ -397,7 +397,7 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     size: 30,
     isBestSeller: true,
-    image: "https://picsum.photos/seed/28/400/600"
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81ztd-meb8m879chdw43@resize_w1200_nl.webp"
   },
   {
     id: 29,
@@ -425,7 +425,7 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     size: 30,
     isBestSeller: true,
-    image: "https://picsum.photos/seed/30/400/600"
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81zti-meb4ero3c0ea66@resize_w1200_nl.webp"
   },
   {
     id: 31,
@@ -453,7 +453,7 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     size: 30,
     isBestSeller: true,
-    image: "https://picsum.photos/seed/32/400/600"
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81ztd-meaxqn68zf9j25@resize_w1200_nl.webp"
   },
   {
     id: 33,
@@ -481,7 +481,7 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     size: 30,
     isBestSeller: true,
-    image: "https://picsum.photos/seed/34/400/600"
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81ztg-me82itkjuubp23@resize_w1200_nl.webp"
   },
  {
     id: 35,
@@ -509,6 +509,6 @@ export const PERFUMES: Perfume[] = [
     price: 175000,
     size: 30,
     isBestSeller: false,
-    image: "https://picsum.photos/seed/2/400/600"
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81ztn-meb2epd3qccla6@resize_w1200_nl.webp"
   }
 ]
